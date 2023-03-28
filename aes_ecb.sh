@@ -1,5 +1,7 @@
 touch aes-ecb.txt
 
+rm files/*.cryp files/*.DEC
+
 for FILE in files/*
 do
 	start=`date +%s.%N`
